@@ -123,6 +123,7 @@ Section "uninstall"
   Delete "$INSTDIR\libeay32.dll"
   Delete "$INSTDIR\libidn-11.dll"
   Delete "$INSTDIR\ssleay32.dll"
+  Delete "$INSTDIR\uninstall.exe"
   RmDir "$INSTDIR"
 
   DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Leiningen"
