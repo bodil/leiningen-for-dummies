@@ -53,7 +53,7 @@ Section "Java JRE" JAVA
     # Install Java
     SetOutPath '$TEMP'
     SetOverwrite on
-    File "/oname=$TEMP\jre_setup.exe" 'jre-7u6-windows-i586-iftw.exe'
+    File "/oname=$TEMP\jre_setup.exe" 'jre-7u7-windows-i586-iftw.exe'
     ExecWait "$TEMP\jre_setup.exe" $0
     DetailPrint '..Java Runtime Setup exit code = $0'
     Delete "$TEMP\jre_setup.exe"
