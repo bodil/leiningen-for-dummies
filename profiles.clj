@@ -1,1 +1,1 @@
-{:user {:plugins [[lein-catnip "0.2.1"]]}}
+{:user {:plugins [[lein-catnip "0.3.0"]]}}
